@@ -57,7 +57,8 @@ function validationAll(){
   const findUser = allUsers.find(item => {
 	  return  ((emailValue == item.eamilSignup) && (passValue == item.passSignup))
   })
-  if(findUser) alert('welcome')
+  if(findUser) alert('welcome' + ' ' + allUsers[0].nameSignup)
+//   console.log(allUsers[0].nameSignup)
   if(!findUser) alert('not a user')
 };
 
