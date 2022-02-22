@@ -123,7 +123,7 @@ function validationSignup(){
 		document.getElementById("pass-Signup-error").innerHTML = "**one lowercase letter. ";
 		return false;
   };
-
+alert('welcome to smoking,' + ' ' + nameSignup + ' ' + 'lets light up a joint')
 // confroms   if the password is same or not
 
   	if(passMatch !== passSignup){
